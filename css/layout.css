@@ -13,3 +13,39 @@
 .header-contents-right{
     float: right;
 }
+
+.row2-img{
+    float: left;
+}
+
+.content-row1-right{
+    float: left;
+}
+
+.left, .mid{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.row3-left{
+    float: left;
+}
+
+.row3-img, .row3-img2{
+    float: left;
+}
+
+.row3-right{
+    float: right;
+}
+
+.row4-content-left{
+    float: left;
+}
+
+.content-row4-container button{
+    float: right;
+}

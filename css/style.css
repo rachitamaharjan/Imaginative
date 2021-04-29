@@ -121,7 +121,7 @@ input:focus{
 }
 
 .main-content{
-    margin-top: -80px;
+    margin-top: -130px;
     background-color: white;
 }
 
@@ -137,7 +137,7 @@ input:focus{
 }
 
 .nav-bar-container span{
-    padding: 21px 16px;
+    padding: 19px 16px;
     height: 50px;
     display: inline-block;
 }
@@ -203,4 +203,133 @@ input:focus{
 
 #active-slide{
     background-color: white;
+}
+
+.content-row2-container{
+    margin-top: 50px;
+}
+
+.content-row2-title, .content-row3-title{
+    position: relative;
+}
+
+.title-line{
+    background-color: #ebebeb;
+    height: 5px;
+    width: 100%;
+}
+
+.title-val p{
+    margin-top: -12px;
+    text-align: center;
+    /* background-color: white; */
+}
+
+.content-row2-row1, .content-row2-row2{
+    margin-top: 40px;
+}
+
+.row2-img{
+    background-color: #353535;
+    height: 64px;
+    width: 64px;
+}
+
+.row2-right{
+    margin-left: 74px;
+}
+
+.title-right{
+    font-size: 16px;
+    color: #97455f;
+    margin-bottom: 14px;
+}
+
+.desc-right{
+    font-size: 13px;
+    margin-top: 14px;
+    color: #999999;
+}
+
+.row2-each-content{
+    width: calc(100%/3);
+}
+
+.content-row3-container{
+    margin-top: 50px;
+}
+
+.row3-each-content{
+    margin-top: 33px;
+}
+
+.row3-img{
+    border-radius: 50%;
+    background-color: #353535;
+    height: 128px;
+    width: 128px;
+}
+
+.row3-left, .row3-right{
+    width: calc(50% - 10px);
+}
+
+.row3-each-content-right{
+    margin-left: 146px;
+}
+
+.each-content-title{
+    font-size: 16px;
+    margin-bottom: 14px;
+}
+
+.each-content-title-right{
+    font-size: 16px;
+    margin-bottom: 7px;
+    margin-left: 71px;
+}
+
+.row3-each-content-right .title-val{
+    margin-top: 14px;
+    color: #6a3144;
+    font-size: 13px;
+}
+
+.row3-each-content-right .desc-right{
+    margin-bottom: 14px;
+}
+
+.title-val-right{
+    margin-left: 18px;
+    color: #6a3144;
+    font-size: 13px;
+}
+
+.content-row4-container{
+    margin: 50px 0;
+    padding: 24px 30px;
+    background-color: #97455f;
+    border-radius: 7px;
+}
+
+.row4-content-left{
+    color: white;
+}
+
+.content-row4-container button{
+    padding: 20px 12px;
+    border-radius: 7px;
+    border-style: none;
+    color: #97455f;
+    font-size: 26px;
+    background-color: white;
+}
+
+.row4-col1{
+    font-size: 36px;
+}
+
+.row4-col2{
+    margin-top: 8px;
+    font-size: 18px;
 }
