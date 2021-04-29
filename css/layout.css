@@ -49,3 +49,11 @@
 .content-row4-container button{
     float: right;
 }
+
+.footer-left{
+    float: left;
+}
+
+.footer-right{
+    float: right;
+}
