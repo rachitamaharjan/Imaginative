@@ -5,3 +5,11 @@
 .top-nav-right, .minimize{
     float: right;
 }
+
+.header-contents-left{
+    float: left;
+}
+
+.header-contents-right{
+    float: right;
+}
