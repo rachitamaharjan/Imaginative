@@ -1,0 +1,7 @@
+.top-nav-left{
+    float: left;
+}
+
+.top-nav-right, .minimize{
+    float: right;
+}
