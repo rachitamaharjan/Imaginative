@@ -14,10 +14,6 @@
     float: right;
 }
 
-.row2-img{
-    float: left;
-}
-
 .content-row1-right{
     float: left;
 }
@@ -74,3 +70,8 @@
     float: right;
 }
 
+@media screen and (min-width: 700px){
+    .row2-img{
+        float: left;
+    }
+}
