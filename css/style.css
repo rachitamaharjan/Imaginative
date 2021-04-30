@@ -12,10 +12,6 @@ a{
     /* max-width: 60em; */
 }
 
-.top-nav-left{
-    padding: 0.5625em 0;
-}
-
 input, textarea{
     border-style: none;
 }
@@ -42,13 +38,26 @@ button:hover{
 }
 
 .top-nav-bar-icon{
+    display: none;
     text-align: center;
     background-color: #d2d2d2;
     width: 32px;
     height: 32px;
     border-radius: 50%;
     margin-right: 10px;
+}
+
+.sharethis, .nav-bar-collapsible{
     display: inline-block;
+}
+
+.sharethis{
+    transform: translateY(-25%);
+}
+
+.nav-bar-collapsible{
+    transform: translateY(13%);
+    margin-right: 10px;
 }
 
 .top-nav-bar-icon:hover{
@@ -76,7 +85,6 @@ button:hover{
 
 .header-wrapper{
     background-color: #ebebeb;
-    height: 270px;
 }
 
 .minimize{
@@ -94,7 +102,7 @@ button:hover{
 }
 
 .header-contents-container{
-    padding: 55px 0 0 0;
+    padding: 55px 0 60px 0;
 }
 
 .heading-I, .heading{
@@ -132,14 +140,20 @@ button:hover{
     padding: 10px;
     border-radius: 6px 0 0 6px;
     min-width: 218px;
+    display: none;
 }
 
 .search-container button{
     border-radius: 0 5px 5px 0;
+    display: none;
+}
+
+.search-button-small{
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .main-content{
-    margin-top: -130px;
     background-color: white;
 }
 
@@ -152,6 +166,7 @@ button:hover{
     color: white;
     font-size: 12px;
     height: 50px;
+    display: none;
 }
 
 .nav-bar-container span{
@@ -448,4 +463,53 @@ textarea{
     color: #999999;
     padding: 20px 0;
     /* max-width: 960px; */
+}
+
+/* @media screen and (min-width: 480px){ */
+@media screen and (min-width: 481px){
+    
+}
+
+@media screen and (min-width: 768px){
+/* @media screen and (min-width: 769px){ */
+    .top-nav-bar-icon{
+        display: inline-block;
+    }
+
+    .sharethis{
+        display: none;
+    }
+
+    .search-button-small{
+        display: none;
+    }
+
+    .search-container input, .search-container button{
+        display: inline-block;
+    }
+
+    .main-content {
+        margin-top: -130px;
+    }
+
+    .header-wrapper {
+        height: 270px;
+    }
+
+    .header-contents-container {
+        padding: 55px 0 0 0;
+    }
+
+    .nav-bar-container{
+        display: block;
+    }
+
+    .nav-bar-collapsible{
+        display: none;
+    }
+
+    .top-nav-left {
+        padding: 0.5625em 0;
+    }
+
 }
