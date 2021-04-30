@@ -38,31 +38,31 @@
     float: right;
 }
 
-.footer-right-container{
-    float: right;
-}
-
-.footer-left, .footer-mid{
-    float: left;
-}
-
-.footer-right{
-    float: right;
-}
-
 .footer-img{
     float: left;
 }
 
-.bottom-left{
-    float: left;
-}
+@media screen and (min-width: 481px){
 
-.bottom-right{
-    float: right;
+    .footer-mid{
+        float: left;
+    }
+    
+    .footer-right{
+        float: right;
+    }
+
+    .bottom-left{
+        float: left;
+    }
+    
+    .bottom-right{
+        float: right;
+    }
 }
 
 @media screen and (min-width: 700px){
+
     .row2-img{
         float: left;
     }
@@ -75,3 +75,16 @@
         float: right;
     }
 }
+
+@media screen and (min-width: 960px){
+
+    .footer-left{
+        float: left;
+    }
+
+    .footer-right-container{
+        float: right;
+    }
+}
+
+
