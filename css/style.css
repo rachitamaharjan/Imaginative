@@ -247,6 +247,11 @@ button:hover{
     /* background-color: white; */
 }
 
+.title-val span{
+    background-color: white;
+    padding: 5px;
+}
+
 .content-row2-row1, .content-row2-row2{
     margin-top: 40px;
 }
