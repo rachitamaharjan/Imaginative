@@ -363,16 +363,16 @@ button:hover{
     border-radius: 7px;
     border-style: none;
     color: #97455f;
-    font-size: 26px;
+    font-size: 20px;
     background-color: white;
 }
 
 .row4-col1{
-    font-size: 36px;
+    font-size: 30px;
 }
 
-.row4-col2{
-    margin-top: 8px;
+.row4-col2 {
+    margin: 8px 0 10px 0;
     font-size: 18px;
 }
 
@@ -508,6 +508,10 @@ textarea{
         margin-top: 0;
     }
 
+    .row4-col1 {
+        font-size: 30px;
+    }
+
     
 }
 
@@ -515,6 +519,11 @@ textarea{
 
 @media screen and (min-width: 768px){
 /* @media screen and (min-width: 769px){ */
+
+    .content-row4-container button {
+        font-size: 26px;
+    }
+
     .content-container {
         padding: 30px 30px 0 30px;
     }
