@@ -7,6 +7,10 @@ a{
     text-decoration: none;
 }
 
+.content-wrapper{
+    margin-top: 30px;
+}
+
 .container{
     max-width: 90%;
     /* max-width: 60em; */
@@ -110,7 +114,7 @@ button:hover{
     color: #333333;
 }
 
-.heading-I, .heading{
+.heading-I{
     font-size: 34px;
 }
 
@@ -119,7 +123,7 @@ button:hover{
 }
 
 .heading-support{
-    font-size: 14px;
+    font-size: 11px;
     color: #999999;
     width: 90px;
     display: inline-block;
@@ -205,16 +209,16 @@ button:hover{
     background-color: #adadad;
     /* margin: 0 11px 28px 0; */
     max-width: 454px;
-    position: absolute;
     bottom: 28px;
     right: 11px;
 }
+
 .desc-col1{
-    font-size: 36px;
+    font-size: 18px;
 }
 
 .desc-col2{
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 100;
 }
 
@@ -277,8 +281,8 @@ button:hover{
 
 .row2-img{
     background-color: #ffffff;
-    height: 64px;
-    width: 64px;
+    height: 44px;
+    width: 44px;
 }
 
 .title-right{
@@ -392,7 +396,6 @@ button:hover{
 
 .footer-left-title {
     margin-bottom: 22px;
-    font-size: 17px;
     text-align: center;
 }
 
@@ -444,10 +447,6 @@ textarea{
     border-radius: 5px;
 }
 
-.footer-mid{
-    /* margin-right: 57px; */
-}
-
 .bottom-horizontal-line1, .bottom-horizontal-line2{
     height: 1px;
     width: 100%;
@@ -469,8 +468,12 @@ textarea{
     line-height: 20px;
 }
 
-/* @media screen and (min-width: 480px){ */
 @media screen and (min-width: 481px){
+
+    .heading-support{
+        font-size: 14px;
+    }
+
     .row2-right{
         margin-left: 74px;
         margin-top: -64px;
@@ -478,6 +481,11 @@ textarea{
     
     .content-row2-row1, .content-row2-row2{   
         text-align: left;
+    }
+
+    .row2-img{
+        height: 64px;
+        width: 64px;
     }
 
     .desc-right {
@@ -497,11 +505,11 @@ textarea{
     .footer-left-title{
         margin-bottom: 22px;
         text-align: left;
-        font-size: 16px;
     }
 }
 
 @media screen and (min-width: 700px){
+
     .row2-right{
         margin-top:0
     }
@@ -513,6 +521,10 @@ textarea{
 
     .content-row2-row1, .content-row2-row2{   
         margin-top: 40px;     
+    }
+
+    .slider-desc{
+        position: absolute;
     }
 
     .desc-right {
@@ -545,7 +557,10 @@ textarea{
 
 
 @media screen and (min-width: 768px){
-/* @media screen and (min-width: 769px){ */
+
+    .content-wrapper{
+        margin: 0;
+    }
 
     .content-row4-container button {
         font-size: 26px;
@@ -593,6 +608,14 @@ textarea{
 
     .top-nav-left {
         padding: 0.5625em 0;
+    }
+
+    .desc-col1{
+        font-size: 36px;
+    }
+    
+    .desc-col2{
+        font-size: 16px;
     }
 
 }
