@@ -38,10 +38,6 @@
     float: right;
 }
 
-.footer-img{
-    float: left;
-}
-
 @media screen and (min-width: 481px){
 
     .footer-mid{
@@ -58,6 +54,10 @@
     
     .bottom-right{
         float: right;
+    }
+
+    .footer-img{
+        float: left;
     }
 }
 

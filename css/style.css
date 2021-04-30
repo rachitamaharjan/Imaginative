@@ -390,8 +390,10 @@ button:hover{
     text-align: center;
 }
 
-.footer-left-title{
+.footer-left-title {
     margin-bottom: 22px;
+    font-size: 17px;
+    text-align: center;
 }
 
 .footer-container{
@@ -417,8 +419,9 @@ button:hover{
     height: 95px;
 }
 
-.footer-left-content{
-    margin-left: 115px;
+.footer-left-content {
+    margin-top: 10px;
+    text-align: center;
 }
 
 .col1-row1{
@@ -485,6 +488,17 @@ textarea{
         text-align: left;
     }
 
+    .footer-left-content{
+        margin-top: 0;
+        margin-left: 115px;
+        text-align: left;
+    }
+
+    .footer-left-title{
+        margin-bottom: 22px;
+        text-align: left;
+        font-size: 16px;
+    }
 }
 
 @media screen and (min-width: 700px){
@@ -526,7 +540,6 @@ textarea{
         text-align: left;
         line-height: unset;
     }
-
 }
 
 
