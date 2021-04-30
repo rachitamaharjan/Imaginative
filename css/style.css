@@ -246,6 +246,10 @@ button:hover{
     position: relative;
 }
 
+.row3-right{
+    margin-top: 33px;
+}
+
 .title-line{
     background-color: #ebebeb;
     height: 5px;
@@ -290,6 +294,10 @@ button:hover{
     line-height: 21px;
 }
 
+.row3-right .desc-right{
+    text-align: center;
+}
+
 .content-row3-container{
     margin-top: 50px;
 }
@@ -306,10 +314,6 @@ button:hover{
     border-radius: 50%;
     height: 128px;
     width: 128px;
-}
-
-.row3-left, .row3-right{
-    width: calc(50% - 10px);
 }
 
 .row3-each-content-right{
@@ -490,6 +494,18 @@ textarea{
 
     .desc-right {
         margin-top: 14px;
+    }
+
+    .row3-right .desc-right{
+        text-align: left;
+    }
+
+    .row3-left, .row3-right {
+        width: calc(50% - 10px);
+    }
+
+    .row3-right{
+        margin-top: 0;
     }
 
     
