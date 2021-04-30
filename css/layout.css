@@ -50,10 +50,27 @@
     float: right;
 }
 
-.footer-left{
+.footer-right-container{
+    float: right;
+}
+
+.footer-left, .footer-mid{
     float: left;
 }
 
 .footer-right{
     float: right;
 }
+
+.footer-img{
+    float: left;
+}
+
+.bottom-left{
+    float: left;
+}
+
+.bottom-right{
+    float: right;
+}
+
