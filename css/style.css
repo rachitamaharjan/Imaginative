@@ -30,6 +30,7 @@ button, input, textarea{
 
 button:hover{
     cursor: pointer;
+    background-color: #6a3144;
 }
 
 .top-nav-bar-icon{
@@ -72,6 +73,11 @@ button:hover{
     color: #97455f;
 }
 
+.top-nav-right a:hover{
+    color: #6a3144;
+    text-decoration: underline;
+}
+
 .horizontal-line{
     height: 1px;
     width: 100%;
@@ -82,12 +88,20 @@ button:hover{
     background-color: #ebebeb;
 }
 
+.header-contents-left a:hover{
+    text-decoration: underline;
+}
+
 .minimize{
     height: 26px;
     width: 30px;
     background-color: #97455f;
     padding-top: 12px;
     border-radius: 0 0 5px 5px;
+}
+
+.minimize:hover{
+    background-color: #6a3144;
 }
 
 .minimize-line{
@@ -283,6 +297,11 @@ button:hover{
     margin-bottom: 14px;
 }
 
+.title-right:hover{
+    color: #6a3144;
+    text-decoration: underline;
+}
+
 .desc-right{
     font-size: 0.8125em;
     margin-top: 14px;
@@ -325,8 +344,13 @@ button:hover{
 
 .row3-each-content-right .title-val{
     margin-top: 14px;
-    color: #6a3144;
+    color: #97455f;
     font-size: 0.8125em;
+}
+
+.row3-each-content-right .title-val:hover{
+    color: #6a3144;
+    text-decoration: underline;
 }
 
 .row3-each-content-right .desc-right{
@@ -335,8 +359,13 @@ button:hover{
 
 .title-val-right{
     margin-left: 18px;
-    color: #6a3144;
+    color: #97455f;
     font-size: 0.8125em;
+}
+
+.title-val-right:hover{
+    color: #6a3144;
+    text-decoration: underline;
 }
 
 .content-row4-container{
@@ -357,6 +386,10 @@ button:hover{
     color: #97455f;
     font-size: 20px;
     background-color: white;
+}
+
+.content-row4-container button:hover{
+    background-color: rgb(218, 214, 214);
 }
 
 .row4-col1{
