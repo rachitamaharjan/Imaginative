@@ -371,7 +371,7 @@ button:hover{
     border-top-width: 1px;
 }
 
-.footer-left, .footer-right0container{
+.footer-left, .footer-right-container{
     width: calc(100%/2 - 10px);
 }
 
@@ -427,7 +427,7 @@ textarea{
 }
 
 .footer-mid{
-    margin-right: 57px;
+    /* margin-right: 57px; */
 }
 
 .bottom-horizontal-line1, .bottom-horizontal-line2{
