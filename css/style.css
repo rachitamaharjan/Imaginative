@@ -172,6 +172,7 @@ button:hover{
 
 .nav-bar-container span:hover{
     background-color: #6a3144;
+    cursor: pointer;
 }
 
 .nav-bar-row1{
