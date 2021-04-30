@@ -27,7 +27,7 @@ input:focus, textarea:focus{
 button{
     color: white;
     background-color: #97455f;
-    border-color: none;
+    border-color: unset;
     border-style: none;
     padding: 10px;
     font-size: 12px;
@@ -56,7 +56,7 @@ button:hover{
 }
 
 .top-nav-bar-icon img{
-    vertical-align: -webkit-baseline-middle;
+    transform: translateY(50%);
 }
 
 .top-nav-right{
