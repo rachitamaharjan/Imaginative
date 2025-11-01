@@ -15,7 +15,7 @@ Mobile View             |  Tablet View
 
 
 
-## [Live Demo](https://smilerac.github.io/Imaginative/)
+## [Live Demo](https://rachitamaharjan.github.io/Imaginative/)
 
 ## Built With
 
